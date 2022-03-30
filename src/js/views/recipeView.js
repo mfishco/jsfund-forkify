@@ -7,9 +7,7 @@ class RecipeView {
 
 	render(data) {
 		this.#data = data;
-		console.log('data', this.#data);
 		const markup = this.#generateMarkup();
-		console.log('markup');
 		this.#clear();
 		this.#parentElement.insertAdjacentHTML('afterbegin', markup);
 	}
@@ -108,7 +106,6 @@ class RecipeView {
 	}
 
 	#generateMarkupIngredient(ing) {
-		console.log('==MF== ing');
 		return `
             <li class="recipe__ingredient">
                 <svg class="recipe__icon">
