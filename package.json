@@ -1,10 +1,11 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recipe Application built as part of JS Fundamentals course.",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Mitchell Fish (JS Fundamentals)",
   "license": "ISC",
